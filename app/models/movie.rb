@@ -5,5 +5,9 @@ class Movie < ApplicationRecord
 
 
   def actor_average_age
-  end 
+    # for Actor.all do |actor|
+    #   age_sum += actor.age
+    # end
+    # age_sum/(Actor.all.length)
+  end
 end
